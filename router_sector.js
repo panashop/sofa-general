@@ -7,6 +7,7 @@ var JSONEnemyBattInSector = require('./LIB/json_our_batt').JSONEnemyBattInSector
 var openZone = require('./LIB/open_zone');
 var path = req.path;
 var url = require('url');
+    
 
 if(path == '/sector/A/'){ 
     openSector("A", res);
@@ -23,7 +24,8 @@ if(path == '/sector/C/'){
 if(path == '/sector/M/'){
     openSector("M", res);
     sectorName = "M";
-}    
+}
+    
 if(path == '/sector/json/'){
     JSONSector(sectorName, res);
 }

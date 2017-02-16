@@ -1,11 +1,11 @@
 var express = require('express');
 var app = express();
 var router_sector = require('./router_sector');
-var router_zone = require('./router_zone');
+var router_zone = require('./developer_router_zone');
 var change_direction = require('./change_direction');
 var db = require('./db');
 
-var develop = false;
+var develop = true;
 
 app.use(express.static(__dirname +'/'));
 app.use(express.static(__dirname +'/CSS/'));
@@ -23,11 +23,8 @@ app.get(/zone/, function(req, res) {
     router_zone(req, res);
 });
 
-app.get(/direction/, function(req, res) { 
-    change_direction(req, res);
-});
+//app.get(/direction/, function(req, res) { 
+//    change_direction(req, res);
+//});
 
 app.listen(8080);
-
-
-
