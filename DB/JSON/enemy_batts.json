@@ -1,0 +1,116 @@
+[
+    {"name":"/*=================== СЕКТОР A ==================*/",
+    "name":  "batt-601-A",
+    "side": "enemy",
+    "sector": "A",
+    "position": "2513",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-inf-101-A", "type" : "infantery"},
+             {"name": "rota-btr-102-A", "type" : "BTR"},
+             {"name": "rota-tank-103-A", "type" : "tank"}]
+    },
+    {
+    "name":  "batt-602-A",
+    "side": "enemy",
+    "sector": "A",
+    "position": "2817",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-inf-201-A", "type" : "infantery"}, 
+             {"name": "rota-btr-202-A", "type" : "BTR"},
+             {"name": "rota-tank-203-A", "type" : "tank"}]
+    },{
+    "name":  "batt-603-A",
+    "side": "enemy",
+    "sector": "A",
+    "position": "2618",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-btr-301-A", "type" : "BTR"}, 
+             {"name": "rota-btr-302-A", "type" : "BTR"},
+             {"name": "rota-tank-303-A", "type" : "tank"}]
+    },
+    {
+    "name":  "batt-604-A",
+    "side": "enemy",
+    "sector": "A",
+    "position": "2416",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-tank-401-A", "type" : "tank"},
+             {"name": "rota-tank-402-A", "type" : "tank"}]
+    },
+    {
+    "name":  "batt-605-A",
+    "side": "enemy",
+    "sector": "A",
+    "position": "2515",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-arta-501-A", "type" : "ARTA"},
+             {"name": "rota-arta-502-A", "type" : "ARTA"}]
+    },
+    {
+    "name":  "batt-606-A",
+    "side": "enemy",
+    "sector": "A",
+    "position": "2314",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-grad-601-A", "type" : "GRAD"},
+             {"name": "rota-grad-602-A", "type" : "GRAD"}]
+    },
+    {"name":"/*=================== СЕКТОР Б ==================*/",
+    "name":  "batt-01-B",
+    "side": "enemy",
+    "sector": "B",
+    "position": "2919",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-inf-101-B", "type" : "BTR"}, 
+             {"name": "rota-btr-102-B", "type" : "BTR"},
+             {"name": "rota-tank-103-B", "type" : "tank"}]
+    },
+    {
+    "name":  "batt-602-B",
+    "side": "enemy",
+    "sector": "B",
+    "position": "2817",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-inf-201-B", "type" : "infantery"}, 
+             {"name": "rota-btr-202-B", "type" : "BTR"},
+             {"name": "rota-tank-203-B", "type" : "tank"}]
+    },
+    {
+    "name":  "batt-603-B",
+    "side": "enemy",
+    "sector": "B",
+    "position": "2617",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-tank-301-B", "type" : "tank"},
+             {"name": "rota-tank-302-B", "type" : "tank"}]
+    },
+    {
+    "name":  "batt-604-B",
+    "side": "enemy",
+    "sector": "B",
+    "position": "2618",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-grad-401-B", "type" : "GRAD"},
+             {"name": "rota-grad-402-B", "type" : "GRAD"}]
+    },
+    {
+    "name":  "batt-605-B",
+    "side": "enemy",
+    "sector": "B",
+    "position": "2417",
+    "trench": "no",
+    "walked": "no",
+    "rota": [{"name": "rota-arta-501-B", "type" : "ARTA"},
+             {"name": "rota-arta-502-B", "type" : "ARTA"}]
+    }
+]

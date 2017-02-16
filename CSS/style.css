@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    width: 800px;
+    margin: 20px auto;
+    position: relative;
+}
+
+#main_menu {
+    width: 800px;
+    height: 800px;
+    background: url(../IMG/menu.jpg) center center no-repeat;
+}
+
+.sector{
+    cursor: pointer;
+}
+
+#sectorA {
+    position: absolute;
+    width: 320px;
+    height: 257px;
+    left: 342px;
+    top: 5px;
+}
+
+#sectorA:hover{
+    background: url(../IMG/sectorA.png) center center no-repeat;
+}
+
+#sectorB {
+    position: absolute;
+    width: 276px;
+    height: 243px;
+    left: 30px;
+    top: 305px;
+}
+
+#sectorB:hover{
+    background: url(../IMG/sectorB.png) center center no-repeat;
+}
+
+
+#sectorC {
+    position: absolute;
+    width: 326px;
+    height: 339px;
+    left: 86px;
+    top: 16px;
+}
+
+#sectorC:hover{
+    background: url(../IMG/sectorC.png) center center no-repeat;
+}
+
+#sectorM {
+    position: absolute;
+    width: 280px;
+    height: 270px;
+    left: 45px;
+    top: 530px;
+}
+
+#sectorM:hover{
+    background: url(../IMG/sectorM.png) center center no-repeat;
+}

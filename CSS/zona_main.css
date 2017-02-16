@@ -1,0 +1,1474 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+#wrap{
+    display: none;
+    opacity: 0.9;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(1, 1, 1, 0.825);
+    z-index: 100;
+    overflow: auto;
+}
+#info_panel{
+    display: none;   
+}
+#name_of_unit{
+    width: 300px;
+    position: absolute;
+    font-size: 24px;
+    color: blue;
+    top: 35px;
+    left: 25px;
+    text-align: center;
+}
+#health_of_unit{
+    position: absolute;
+    font-size: 20px;
+    color: #222;
+    top: 38px;
+    left: 350px;
+}
+#value_health_of_unit{
+    width: 50px;
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+    color:#222;
+    top: 38px;
+    left: 430px;
+}
+
+.info_panel_tank{
+    margin: auto;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0px;
+    
+    width: 500px;
+    height: 450px;
+    background: #ebebeb;
+}
+#tank_000_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 124px;
+    left: 6px;  
+}
+#tank_001_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 124px;
+    left: 173px;  
+}
+#tank_002_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 124px;
+    left: 340px;  
+}
+#tank_003_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 201px;
+    left: 83px;  
+}
+#tank_004_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 201px;
+    left: 263px;  
+}
+#tank_005_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 278px;
+    left: 6px;  
+}
+#tank_006_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 278px;
+    left: 173px;  
+}
+#tank_007_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 278px;
+    left: 340px;  
+}
+#tank_008_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 355px;
+    left: 83px;  
+}
+#tank_009_position{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 355px;
+    left: 263px;  
+}
+
+.info_panel_GRAD{
+    margin: auto;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0px;
+    
+    width: 500px;
+    height: 350px;
+    background: #ebebeb;
+}
+#GRAD_000_position{
+    width: 155px;
+    height: 70px;
+    position: absolute;
+    top: 125px;
+    left: 52px;  
+}
+#GRAD_001_position{
+    width: 155px;
+    height: 70px;
+    position: absolute;
+    top: 125px;
+    left: 308px;  
+}
+#GRAD_002_position{
+    width: 155px;
+    height: 70px;
+    position: absolute;
+    top: 240px;
+    left: 52px;  
+}
+#GRAD_003_position{
+    width: 155px;
+    height: 70px;
+    position: absolute;
+    top: 240px;
+    left: 308px;  
+}
+.info_panel_ARTA{
+    margin: auto;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0px;
+    
+    width: 500px;
+    height: 350px;
+    background: #ebebeb;
+}
+#ARTA_000_position{
+    width: 154px;
+    height: 89px;
+    position: absolute;
+    top: 120px;
+    left: 63px;  
+}
+#ARTA_001_position{
+    width: 154px;
+    height: 89px;
+    position: absolute;
+    top: 138px;
+    left: 305px;  
+}
+#ARTA_002_position{
+    width: 154px;
+    height: 89px;
+    position: absolute;
+    top: 227px;
+    left: 130px;  
+}
+.info_panel_infantery{
+    margin: auto;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0px;
+    
+    width: 500px;
+    height: 350px;
+    background: #ebebeb;
+}
+#infantery_000_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 50px;  
+}
+#infantery_001_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 91px;  
+}
+#infantery_002_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 132px;  
+}
+#infantery_003_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 173px;  
+}
+#infantery_004_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 214px;  
+}
+#infantery_005_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 255px;  
+}
+#infantery_006_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 296px;  
+}
+#infantery_007_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 337px;  
+}
+#infantery_008_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 378px;  
+}
+#infantery_009_position{
+    width: 154px;
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 419px;  
+}
+#mortan_000_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 187px;
+    left: 43px;  
+}
+#mortan_001_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 187px;
+    left: 138px;  
+}
+#mortan_002_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 187px;
+    left: 233px;  
+}
+#mortan_003_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 187px;
+    left: 328px;  
+}
+#mortan_004_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 187px;
+    left: 423px;  
+}
+#PTUR_000_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 287px;
+    left: 43px;  
+}
+#PTUR_001_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 287px;
+    left: 136px;  
+}
+#PTUR_002_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 287px;
+    left: 229px;  
+}
+#PTUR_003_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 287px;
+    left: 322px;  
+}
+#PTUR_004_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 287px;
+    left: 415px;  
+}
+
+
+.info_panel_BTR{
+    margin: auto;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0px;
+    
+    width: 500px;
+    height: 450px;
+    background: #ebebeb;
+}
+#mortan2_000_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 196px;
+    left: 204px;  
+}
+#mortan2_001_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 196px;
+    left: 237px;  
+}
+#mortan2_002_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 196px;
+    left: 270px;  
+}
+#mortan2_003_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 196px;
+    left: 303px;  
+}
+#mortan2_004_position{
+    width: 30px;
+    height: 63px;
+    position: absolute;
+    top: 196px;
+    left: 336px;  
+}
+#PTUR2_000_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 194px;
+    left: 407px;  
+}
+#PTUR2_001_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 241px;
+    left: 407px;  
+}
+#PTUR2_002_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 288px;
+    left: 407px;  
+}
+#PTUR2_003_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 335px;
+    left: 407px;  
+}
+#PTUR2_004_position{
+    width: 52px;
+    height: 36px;
+    position: absolute;
+    top: 382px;
+    left: 407px;  
+}
+#infantery2_000_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 50px;  
+}
+#infantery2_001_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 91px;  
+}
+#infantery2_002_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 132px;  
+}
+#infantery2_003_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 173px;  
+}
+#infantery2_004_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 214px;  
+}
+#infantery2_005_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 255px;  
+}
+#infantery2_006_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 296px;  
+}
+#infantery2_007_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 337px;  
+}
+#infantery2_008_position{
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 378px;  
+}
+#infantery2_009_position{
+    width: 154px;
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    top: 97px;
+    left: 419px;  
+}
+#BTR_000_position{
+    width: 146px;
+    height: 62px;
+    position: absolute;
+    top: 192px;
+    left: 26px;  
+}
+#BTR_001_position{
+    width: 146px;
+    height: 62px;
+    position: absolute;
+    top: 275px;
+    left: 26px;  
+}
+#BTR_002_position{
+    width: 146px;
+    height: 62px;
+    position: absolute;
+    top: 275px;
+    left: 212px;  
+}
+#BTR_003_position{
+    width: 146px;
+    height: 62px;
+    position: absolute;
+    top: 358px;
+    left: 26px;  
+}
+#BTR_004_position{
+    width: 146px;
+    height: 62px;
+    position: absolute;
+    top: 358px;
+    left: 212px;  
+}
+
+
+.info_panel_in{
+    position: relative;
+}
+#closePanel{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    z-index: 300;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background: url(../IMG/our_info_panel.png) no-repeat center center;
+    background-position: -100px -300px;
+}
+#main{
+    color: rgba(255,255,255, 0.01);
+    height: 610px;
+    width: 810px;
+    /*background: url(../IMG/big_map1.jpg) no-repeat;*/
+    margin: 30px auto;
+    position: relative;
+}
+
+.circuit{
+    padding-top:  15px;
+    position: absolute;
+    background: url(../IMG/grid.png) repeat left top;
+}
+#buttonNewCourse{
+    /*margin-top: 30px;
+    margin-bottom: 10px;*/
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: -60px
+}
+
+#enemy_down{
+    display: inline-block;
+    width: 810px;
+    text-align: center;
+}
+#enemy_step{
+    height: 50px;
+    width: 233px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -300px -200px;
+}
+#enemy_step_1{
+    height: 50px;
+    width: 42px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: 0px -100px;
+}
+#enemy_step_1:hover{
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -200px -100px;
+    cursor: pointer;
+}
+#enemy_step_1_off{
+    height: 50px;
+    width: 42px;
+    margin-left: 10px;
+    display: none;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -100px -100px;
+}
+#enemy_step_1_click{
+    height: 50px;
+    width: 42px;
+    margin-left: 10px;
+    display: none;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -200px -100px;
+}
+
+#enemy_step_2{
+    height: 50px;
+    width: 57px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: 0px -200px;
+}
+#enemy_step_2:hover{
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -200px -200px;
+    cursor: pointer;
+}
+#enemy_step_2_off{
+    height: 50px;
+    width: 57px;
+    margin-left: 10px;
+    display: none;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -100px -200px;
+}
+#enemy_step_2_click{
+    height: 50px;
+    width: 57px;
+    margin-left: 10px;
+    display: none;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -200px -200px;;
+}
+#enemy_step_3{
+    height: 50px;
+    width: 67px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: 0px -300px;
+}
+#enemy_step_3:hover{
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -200px -300px;
+    cursor: pointer;
+}
+#enemy_step_3_off{
+    height: 50px;
+    width: 67px;
+    margin-left: 10px;
+    display: none;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -100px -300px;
+}
+#enemy_step_3_click{
+    height: 50px;
+    width: 67px;
+    margin-left: 10px;
+    display: none;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -200px -300px;
+}
+
+#our_down{
+    display: inline-block;
+    width: 810px;
+    text-align: center;
+}
+
+#our_save{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: 0px -500px;
+}
+
+#our_save:hover{
+    cursor: pointer;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -200px -500px;
+}
+
+#our_save_off{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -100px -500px;
+    //display: none;    
+}
+
+#our_load{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -300px -500px;
+    margin-left: 10px;
+}
+
+#our_load:hover{
+    cursor: pointer;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -500px -500px;
+}
+
+#our_load_off{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -400px -500px;
+    margin-left: 10px;
+    //display: none;
+}
+#our_step{
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -300px -300px;
+    margin-left: 10px;
+}
+#our_back_step{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: 0px 0px;
+}
+#our_back_step:hover{
+    cursor: pointer;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -200px 0px;
+}
+#our_back_step_off{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    display: none;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -100px 0px;
+}
+#our_trench{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -300px -400px;
+}
+#our_trench:hover{
+    cursor: pointer;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -500px -400px;
+}
+#our_trench_off{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -400px -400px;
+}
+#our_mine{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: 0px -400px;
+}
+#our_mine:hover{
+    cursor: pointer;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -200px -400px;
+}
+#our_mine_off{    
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -100px -400px;
+}
+#enemy_course{
+    height: 50px;
+    width: 200px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -300px 0px;
+}
+#enemy_course:hover{
+    cursor: pointer;
+    background: url(../IMG/down_sprite.png) no-repeat;
+    background-position: -300px -100px;
+}
+
+/*----------КАРТЫ ЯНДЕКС------------------*/
+#big_map{
+    float: left;
+    width: 810px;
+    height: 605px;
+    /*margin: 30px auto;*/
+    position:relative;
+    
+}
+
+#big_map img{
+    position: absolute;
+    clip:rect(0px 810px 605px 0px);
+    float: left;
+	}
+#big_map_zone img{
+    position: absolute;
+    clip:rect(0px 810px 605px 0px);
+    float: left;
+}
+/*----------КАРТЫ ЯНДЕКС------------------*/
+
+
+.line_1_cell{
+    display: inline-block;
+    text-align: center;
+    height: 61px;
+    width: 54px;
+    line-height: 61px;
+    margin-right: 2px;
+    margin-top: -12px;
+    vertical-align: top;
+    
+}
+.line_1.line_first :first-child{
+    margin-left: 3px;
+}
+.line_1 :first-child{
+    margin-left: 3px;
+}
+.line_1.line_first :last-child{
+    margin-right: 1px;
+}
+.line_2_cell{
+    display: inline-block;
+    text-align: center;
+    height: 61px;
+    width: 54px;
+    line-height: 61px;
+    margin-top: -12px;
+    margin-right: 2px;
+    position: relative;
+    vertical-align: top;
+}
+.line_2 {
+    margin-left: 32px;
+}
+#button_trench{
+   display: none;  
+}
+#button_mine{
+   display: none;  
+}
+.water{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -400px -700px;
+}
+/*------------------------------------------------------------------------*/
+.our.base_point{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -500px -700px;
+}
+
+.enemy.base_point{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -200px -500px;
+}
+/*------------------------------------------------------------------------*/
+.our{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -400px 0px; 
+}
+.our.our_infantery{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: 0px -300px;
+}
+.our.our_infantery_attack{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -100px -300px;
+}
+.our.our_infantery_trench{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: 0px -400px;
+}
+.our.our_infantery_trench_attack{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -100px -400px;
+}
+
+/*  дальше дописать стили для вражеских траншей и мин  */
+.our.our_infantery_trench_mine{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: 0px -500px;
+}
+.our.our_infantery_trench_mine_attack{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -100px -500px;
+}
+.our.our_infantery_trench_walked{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -300px -400px;
+}
+.our.our_infantery_trench_walked_mine{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -300px -500px;
+}
+.our.our_infantery_target{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -200px -300px;
+}
+.our.our_infantery_walked{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -300px -300px; 
+}
+.our.our_tank{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: 0px -600px;
+}
+.our.our_tank_attack1{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -100px -600px;
+}
+.our.our_tank_target{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -200px -600px;
+}
+.our.our_tank_walked{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -300px -600px;; 
+}
+.our.our_BTR{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: 0px -100px;
+}
+.our.our_BTR_attack{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -100px -100px; 
+}
+.our.our_BTR_target{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -200px -100px; 
+}
+.our.our_BTR_walked{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -300px -100px;
+}
+.our.our_GRAD{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: 0px -200px; 
+}
+.our.our_GRAD_attack{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -100px -200px;
+}
+.our.our_GRAD_target{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -200px -200px;
+}
+.our.our_GRAD_walked{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -300px -200px;
+}
+.our.our_ARTA{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: 0px 0px; 
+}
+.our.our_ARTA_attack{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -100px 0px;
+}
+.our.our_ARTA_target{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -200px 0px;
+}
+.our.our_ARTA_walked{
+   background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -300px 0px;
+}
+
+
+.line_2_cell.our.our_can_move{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -500px 0px;  
+}
+.line_2_cell.our.our_can_attack_1{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -400px -100px;  
+}
+.line_2_cell.our.our_can_attack_2{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -400px -200px;  
+}
+.line_2_cell.our.our_can_attack_3{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -400px -300px;  
+}
+.line_2_cell.our.our_can_attack_4{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -400px -400px;  
+}
+.line_2_cell.our.our_can_attack_5{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -400px -500px;  
+}
+.line_2_cell.our.our_can_attack_6{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -400px -600px;  
+}
+
+.line_2_cell.our.our_can_attack_11{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -500px -100px; 
+}
+.line_2_cell.our.our_can_attack_12{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -500px -200px;  
+}
+.line_2_cell.our.our_can_attack_13{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -500px -300px;  
+}
+.line_2_cell.our.our_can_attack_14{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -500px -400px;  
+}
+.line_2_cell.our.our_can_attack_15{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -500px -500px;  
+}
+.line_2_cell.our.our_can_attack_16{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -500px -600px;  
+}
+
+
+
+.enemy{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -500px -100px; 
+}
+.enemy.enemy_infantery{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: 0px -300px; 
+}
+.enemy.enemy_infantery_target{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -300px -300px;; 
+}
+.enemy.enemy_infantery_walked{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -400px -300px; 
+}
+.enemy.enemy_infantery_trench{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -500px 0px;
+}
+.enemy.enemy_tank{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: 0px -400px; 
+}
+.enemy.enemy_tank_target{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -300px -400px;
+}
+.enemy.enemy_tank_walked{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -400px -400px; 
+}
+.enemy.enemy_BTR{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: 0px -100px;
+}
+.enemy.enemy_BTR_target{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -300px -100px; 
+}
+.enemy.enemy_BTR_walked{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -400px -100px;
+}
+.enemy.enemy_GRAD{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: 0px -200px;
+}
+.enemy.enemy_GRAD_target{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -300px -200px 
+}
+.enemy.enemy_GRAD_walked{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -400px -200px; 
+}
+.enemy.enemy_ARTA{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: 0px 0px; 
+}
+.enemy.enemy_ARTA_target{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -300px 0px; 
+}
+.enemy.enemy_ARTA_walked{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -400px 0px;
+}
+.enemy.enemy_infantery_can_attack{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -100px -300px;
+}
+.enemy.enemy_tank_can_attack{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -100px -400px;
+}
+.enemy.enemy_BTR_can_attack{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -100px -100px; 
+}
+.enemy.enemy_GRAD_can_attack{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -100px -200px; 
+}
+.enemy.enemy_ARTA_can_attack{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -100px 0px; 
+}
+.enemy.enemy_infantery_can_bomb{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -200px -300px; 
+}
+.enemy.enemy_tank_can_bomb{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -200px -400px; ; 
+}
+.enemy.enemy_BTR_can_bomb{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -200px -100px;  
+}
+.enemy.enemy_GRAD_can_bomb{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -200px -200px;  
+}
+.enemy.enemy_ARTA_can_bomb{
+   background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -200px 0px;  
+}
+.enemy.enemy_can_attack_1{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: 0px -500px;   
+}
+.enemy.enemy_can_attack_2{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -100px -500px;  
+}
+.enemy.enemy_can_attack_3{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -200px -500px;  
+}
+.enemy.enemy_can_attack_4{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -300px -500px;  
+}
+.enemy.enemy_can_attack_5{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -400px -500px;  
+}
+.enemy.enemy_can_attack_6{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -500px -500px;  
+}
+.enemy.enemy_can_attack_11{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: 0px -600px;  
+}
+.enemy.enemy_can_attack_12{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -100px -600px;  
+}
+.enemy.enemy_can_attack_13{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -200px -600px;  
+}
+.enemy.enemy_can_attack_14{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -300px -600px;  
+}
+.enemy.enemy_can_attack_15{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -400px -600px;  
+}
+.enemy.enemy_can_attack_16{
+    background: url(../IMG/enemy_sprite_big.png) no-repeat center center;
+    background-position: -500px -600px;  
+}
+
+
+
+
+#battlefield{
+    display: none;
+}
+#button_battlefield{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.our_tank_attack{
+    margin-top: -10px;
+    width: 75px;
+    height: 41px;
+    left: -45px;
+    top: 21px;
+    display: inline-block;
+    position: absolute;
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: 0px -700px;
+    z-index: 300;
+}
+.our_tank_attack:hover{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -100px -700px;
+}
+.our_tank_help{
+    margin-top: -10px;
+    width: 75px;
+    height: 41px;
+    right: -45px;
+    top: 21px;
+    display: inline-block;
+    position: absolute;
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -200px -700px;
+    z-index: 300;
+}
+.our_tank_help:hover{
+    background: url(../IMG/our_sprite_big.png) no-repeat center center;
+    background-position: -300px -700px;
+}
+
+/*---------------------ИНДИКАТОРЫ УРОВНЯ РАЗМЕРА НАШИХ ПОДРАЗДЕЛЕНИЙ----------------------*/
+.level5{
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 3px;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -40px;
+    transform: rotate(34deg);
+    top: 6px;
+    right: 6px;    
+}
+
+.level4{
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 3px;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -44px;
+    transform: rotate(34deg);
+    top: 6px;
+    right: 6px;    
+}
+
+.level3{
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 3px;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -48px;
+    transform: rotate(34deg);
+    top: 6px;
+    right: 6px;    
+}
+
+.level2{
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 3px;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -52px;
+    transform: rotate(34deg);
+    top: 6px;
+    right: 6px;    
+}
+
+.level1{
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 3px;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -56px;
+    transform: rotate(34deg);
+    top: 6px;
+    right: 6px;    
+}
+
+/*---------------------ИНДИКАТОРЫ УРОВНЯ ЗДОРОВЬЯ НАШИХ ПОДРАЗДЕЛЕНИЙ----------------------*/
+
+.health10{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -0px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}
+
+.health9{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -4px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}
+
+.health8{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -8px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}
+
+.health7{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -12px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}
+
+.health6{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -16px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}
+
+.health5{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -20px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}
+
+.health4{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -24px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}
+
+.health3{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -28px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}
+
+.health2{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -32px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}
+
+.health1{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    border-color: green;
+    background: url(../IMG/level.png) no-repeat center center;
+    background-position: 0px -36px;
+    transform: rotate(326deg);
+    top: 7px;
+    right: 31px;    
+}

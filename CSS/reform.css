@@ -1,0 +1,223 @@
+#reform_contur{
+    width: 810px;
+    height: 700px;
+    position: absolute;
+    display: none;
+}
+
+#reform{
+    width: 500px;
+    height: 270px;
+    background-color: #ececec;
+    position: absolute;
+    z-index: 105;
+    top: 200px;
+    left: 155px;
+    display: none;
+}
+
+#reform_text{
+    font-family: "Georgia";
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+}
+
+.reform_unit{
+    width: 120px;
+    height: 50px;
+/*    border: 1px solid green;*/
+    background: rgba( 153, 223, 244, 0.2 );
+    position: absolute;
+    cursor: pointer;
+}
+
+#reform_1_unit{
+    top: 50px;
+    left: 40px;
+}
+
+#reform_2_unit{
+    top: 50px;
+    left: 190px;
+}
+
+#reform_3_unit{
+    top: 50px;
+    left: 340px;
+}
+
+#reform_4_unit{
+    top: 140px;
+    left: 40px;
+}
+
+#reform_5_unit{
+    top: 140px;
+    left: 190px;
+}
+
+#reform_6_unit{
+    top: 140px;
+    left: 340px;
+}
+
+#reform_7_unit{
+    top: 230px;
+    left: 40px;
+}
+
+#reform_8_unit{
+    top: 230px;
+    left: 190px;
+}
+
+#reform_9_unit{
+    top: 230px;
+    left: 340px;
+}
+
+#reform_10_unit{
+    top: 320px;
+    left: 40px;
+}
+
+#reform_11_unit{
+    top: 320px;
+    left: 190px;
+}
+
+#reform_12_unit{
+    top: 320px;
+    left: 340px;
+}
+
+#reform_13_unit{
+    top: 410px;
+    left: 40px;
+}
+
+#reform_14_unit{
+    top: 410px;
+    left: 190px;
+}
+
+#reform_15_unit{
+    top: 410px;
+    left: 340px;
+}
+
+#reform_button{
+    width: 250px;
+    height: 25px;
+    position: absolute;
+    top: 220px;
+    left: 125px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: 0px -300px;
+    cursor: pointer;
+}
+
+#reform_button:hover{
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: 0px -350px;
+}
+
+.reform_left{
+    width: 55px;
+    height: 50px;
+/*    border: 1px solid blue;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.reform_right{
+    width: 55px;
+    height: 50px;
+/*    border: 1px solid blue;*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.reform_infantery_on{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: 0px 0px;
+}
+
+.reform_infantery_off{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: -100px 0px;
+}
+
+.reform_tank_on{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: 0px -100px;
+}
+
+.reform_tank_off{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: -100px -100px;
+}
+
+.reform_btr_on{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: -200px 0px;
+}
+
+.reform_btr_off{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: -300px 0px;
+}
+
+.reform_arta_on{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: 0px -200px;
+}
+
+.reform_arta_off{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: -100px -200px;
+}
+
+.reform_grad_on{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: -200px -100px;
+}
+
+.reform_grad_off{
+    width: 55px;
+    height: 50px;
+    background: url(../IMG/sprite_reform.png) no-repeat;
+    background-position: -300px -100px;
+}
+
+.combine{
+    height: 61px;
+    width: 54px;
+    position: absolute;
+    display: inline-block;
+    background: url(../IMG/down_sprite.png);
+    background-position: -300px -600px;
+    left: 0px;
+}

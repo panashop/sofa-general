@@ -1,0 +1,921 @@
+/* Окно предустановки тактической части игры */
+#wrap_field{
+    display: block;
+    opacity: 0.9;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(1, 1, 1, 0.825);
+    z-index: 100;
+    overflow: auto;
+}
+#preload{
+    width: 600px;
+    height: 600px;
+    margin: 95px auto;
+    display: block;
+    background: #fff;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 55px;
+}
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.preload-left{
+    
+    height: 460px;
+    width: 270px;
+    float: left;
+    background-color: rgba(221, 235, 247, 0.6);
+}
+.preload-right{
+    background-color: rgba(252, 228, 215, 0.6);
+    height: 460px;
+    width: 270px;
+    float: right;
+}
+.preload-bottom{
+    height: 100px;
+    margin-top: 40px;
+    width: 600px;
+    text-align: center;
+}
+.buttonPreload{
+    margin-top: 35px;
+    font-size: 16px;
+    padding: 10px;
+}
+.buttonPreloadPlay{
+    margin-left: 20px;
+}
+.buttonPreloadRandom{
+    margin-left: 150px;
+}
+/*  Окно тактической части игры  */
+.main{
+    width: 810px;
+    margin: auto;
+}
+.left{
+    width: 85px;
+    height: 630px;
+    float: left;
+    margin-right: 5px;
+    padding-top: 80px;
+}
+#left_ARTA_GRAD{
+    width: 85px;
+    height: 510px;
+}
+.left_ARTA_1{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: 0px 0px;
+}
+.left_ARTA_2{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -100px 0px;
+}
+.left_ARTA_3{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -200px 0px;
+}
+.left_ARTA_4{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -300px 0px;
+}
+.left_ARTA_5{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -400px 0px;
+}
+.left_ARTA_6{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -500px 0px;
+}
+.left_ARTA_7{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -600px 0px;
+}
+.left_ARTA_8{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -700px 0px;
+}
+.left_ARTA_9{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -800px 0px;
+}
+.left_ARTA_10{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -900px 0px;
+}
+.left_ARTA_11{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -1000px 0px;
+}
+.left_ARTA_12{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -1100px 0px;
+}
+
+.left_GRAD_1{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: 0px -510px;
+}
+.left_GRAD_2{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -100px -510px;
+}
+.left_GRAD_3{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -200px -510px;
+}
+.left_GRAD_4{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -300px -510px;
+}
+.left_GRAD_5{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -400px -510px;
+}
+.left_GRAD_6{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -500px -510px;
+}
+.left_GRAD_7{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -600px -510px;
+}
+.left_GRAD_8{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -700px -510px;
+}
+.left_GRAD_9{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -800px -510px;
+}
+
+#left_trench{
+    width: 85px;
+    height: 55px;
+}
+.left_trench_yes{
+    background: url(../IMG/left_sprite.png)  no-repeat;
+    background-position: -600px -1025px;
+}
+#left_PTUR{
+    width: 85px;
+    height: 75px;
+}
+.left_PTUR_1{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -900px -600px;
+}
+.left_PTUR_1_0{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -1000px -600px;
+}
+.left_PTUR_2{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -900px -700px;
+}
+.left_PTUR_2_0{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -1000px -700px;
+}
+.left_PTUR_2_1{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -1100px -700px;
+}
+.left_PTUR_3{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -1100px -600px;
+}
+.left_PTUR_3_0{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -900px -800px;
+}
+.left_PTUR_3_1{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -1000px -800px;
+}
+.left_PTUR_3_2{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -1100px -800px;
+}
+.left_PTUR_4{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -700px -1020px;
+}
+.left_PTUR_4_0{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -800px -1020px;
+}
+.left_PTUR_4_1{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -900px -1020px;
+}
+.left_PTUR_4_2{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -1000px -1020px;
+}
+.left_PTUR_4_3{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -1100px -1020px;
+}
+.left_PTUR_5{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: 0px -1020px;
+}
+.left_PTUR_5_0{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -100px -1020px;
+}
+.left_PTUR_5_1{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -200px -1020px;
+}
+.left_PTUR_5_2{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -300px -1020px;
+}
+.left_PTUR_5_3{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -400px -1020px;
+}
+.left_PTUR_5_4{
+    background: url(../IMG/left_sprite.png) no-repeat;
+    background-position: -500px -1020px;
+}
+
+.right{
+    width: 85px;
+    height: 630px;
+    float: right;
+    margin-left: 5px;
+    padding-top: 80px;
+}
+#right_ARTA_GRAD{
+    width: 85px;
+    height: 510px;
+}
+.right_ARTA_1{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: 0px 0px;
+}
+.right_ARTA_2{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -100px 0px;
+}
+.right_ARTA_3{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -200px 0px;
+}
+.right_ARTA_4{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -300px 0px;
+}
+.right_ARTA_5{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -400px 0px;
+}
+.right_ARTA_6{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -500px 0px;
+}
+.right_ARTA_7{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -600px 0px;
+}
+.right_ARTA_8{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -700px 0px;
+}
+.right_ARTA_9{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -800px 0px;
+}
+.right_ARTA_10{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -900px 0px;
+}
+.right_ARTA_11{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -1000px 0px;
+}
+.right_ARTA_12{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -1100px 0px;
+}
+
+.right_GRAD_1{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: 0px -510px;
+}
+.right_GRAD_2{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -100px -510px;
+}
+.right_GRAD_3{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -200px -510px;
+}
+.right_GRAD_4{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -300px -510px;
+}
+.right_GRAD_5{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -400px -510px;
+}
+.right_GRAD_6{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -500px -510px;
+}
+.right_GRAD_7{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -600px -510px;
+}
+.right_GRAD_8{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -700px -510px;
+}
+.right_GRAD_9{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -800px -510px;
+}
+
+#right_trench{
+    width: 85px;
+    height: 55px;
+}
+
+.right_trench_yes{
+    background: url(../IMG/right_sprite.png)  no-repeat;
+    background-position: -600px -1025px;
+}
+#right_PTUR{
+    width: 85px;
+    height: 75px;
+}
+
+.right_PTUR_1{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -900px -600px;
+}
+.right_PTUR_1_0{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -1000px -600px;
+}
+.right_PTUR_2{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -900px -700px;
+}
+.right_PTUR_2_0{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -1000px -700px;
+}
+.right_PTUR_2_1{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -1100px -700px;
+}
+.right_PTUR_3{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -1100px -600px;
+}
+.right_PTUR_3_0{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -900px -800px;
+}
+.right_PTUR_3_1{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -1000px -800px;
+}
+.right_PTUR_3_2{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -1100px -800px;
+}
+.right_PTUR_4{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -700px -1020px;
+}
+.right_PTUR_4_0{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -800px -1020px;
+}
+.right_PTUR_4_1{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -900px -1020px;
+}
+.right_PTUR_4_2{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -1000px -1020px;
+}
+.right_PTUR_4_3{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -1100px -1020px;
+}
+.right_PTUR_5{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: 0px -1020px;
+}
+.right_PTUR_5_0{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -100px -1020px;
+}
+.right_PTUR_5_1{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -200px -1020px;
+}
+.right_PTUR_5_2{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -300px -1020px;
+}
+.right_PTUR_5_3{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -400px -1020px;
+}
+.right_PTUR_5_4{
+    background: url(../IMG/right_sprite.png) no-repeat;
+    background-position: -500px -1020px;
+}
+.center{
+    width: 630px;
+    float: left;
+    /*margin-left: 5px;*/
+}
+.map{
+    width: 626px;
+    height: 635px;
+    margin: 0px auto;
+    border: 2px solid #57000C;
+}
+.scrollEnemyValue{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    line-height: 30px;
+    font-size: 18px;
+    background-color: rgba(252, 228, 215, 0.6);
+}
+.scrollOurValue{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    line-height: 30px;
+    font-size: 18px;
+    background-color: rgba(221, 235, 247, 0.6);
+}
+.scroll{
+    display: inline-block;
+    
+}
+.ourAtaka{
+    margin-top: 100px;
+}
+.ourAtaka .ataka{
+    display: block;
+    margin-top: 20px;
+}
+.ourDefense{
+    margin-top: 230px;
+}
+.defense{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.buttonOurDefense{
+    margin-bottom: 5px;
+}
+
+.enemyAtaka{
+    margin-top: 100px;
+}
+.enemyAtaka .ataka{
+    display: block;
+    margin-top: 20px;
+}
+.enemyDefense{
+    margin-top: 230px;
+}
+.buttonEnemyDefense{
+    margin-bottom: 5px;
+}
+.checkbox{
+    margin: 5px 30px;
+}
+.troops{
+    float: left;
+    margin-left: 20px;
+}
+.number{
+   margin-right: 30px;
+    text-align: right;
+    width: 30px;
+    float: right;
+}
+.row{
+    height: 25px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2{
+    text-align: center;
+    margin: 30px auto;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 20px;
+}
+td {
+    width: 30px;
+    height: 30px;    
+    border: 1px solid #828282;
+    font-size: 12px;
+    color: #4E4E4F;
+    color: rgba(221, 235, 247, 0.2);
+}
+td:hover {
+    border: 1px solid #000;
+}
+.enemy_00:hover {
+    background: rgba(250, 196, 167, 0.9);
+}
+.enemy_00{
+   background-color: rgba(252, 228, 215, 0.6);
+    
+}
+.grad_arta{
+  cursor: url(../IMG/roket.svg), auto;
+  background-color: rgba(252, 228, 215, 0.6);
+}
+.not_grad_arta{
+  cursor: auto;
+  background-color: rgba(252, 228, 215, 0.6);
+}
+
+.our_00{
+   background-color: rgba(221, 235, 247, 0.6); 
+}
+
+.bottomLabel{
+    margin-top: 50px;
+}
+.enemy-mimo{
+    background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: -200px -1000px;
+}
+.fire{
+   background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: 0px -1000px; 
+}
+.wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: -300px -1000px;
+}
+.our_wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: -100px -1000px;
+}
+
+.tank72-1{
+    background: url("../IMG/battle_sprite.png") no-repeat right center;
+    background-position: 0px -200px;
+}
+.tank72-2{
+    background: url("../IMG/battle_sprite.png") no-repeat left center;
+    background-position: -100px -200px
+}
+/*
+.enemy-btr-90-1{
+    background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: 0px -100px
+}
+.enemy-btr-90-2{
+    background: url("../IMG/btr-90-2.png") no-repeat left center;
+}*/
+.enemy-btr-90-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right center;
+    background-position: -200px -100px
+}
+.enemy-btr-90-2-kill{
+   background: url("../IMG/battle_sprite.png") no-repeat left center;
+    background-position: -300px -100px
+}
+.enemy-btr-90-1-live{
+    background: url("../IMG/battle_sprite.png") no-repeat right center;
+    background-position: 0px -100px
+}
+.enemy-btr-90-2-live{
+    background: url("../IMG/battle_sprite.png") no-repeat left center;
+    background-position: -100px -100px
+}
+.enemy-ARTA-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right bottom;
+    background-position: -400px -200px
+}
+.enemy-ARTA-2-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left bottom;
+    background-position: -500px -200px
+}
+.enemy-ARTA-3-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right top;
+    background-position: -400px -300px
+}
+.enemy-ARTA-4-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left top;
+    background-position: -500px -300px
+}
+.enemy-GRAD-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right bottom;
+    background-position: -400px -400px
+}
+.enemy-GRAD-2-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left bottom;
+    background-position: -500px -400px
+}
+.enemy-GRAD-3-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right top;
+    background-position: -400px -500px
+}
+.enemy-GRAD-4-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left top;
+    background-position: -500px -500px
+}
+
+.gun-1{
+    background: url("../IMG/battle_sprite.png") no-repeat top center;
+    background-position: 0px -500px
+}
+.gun-2{
+    background: url("../IMG/battle_sprite.png") no-repeat bottom center;
+    background-position: 0px -400px
+}
+
+
+.infantry{
+   background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: -400px 0px 
+}
+
+
+ .tank72-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right center;
+    background-position: -200px -300px
+}
+ .tank72-2-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left center;
+    background-position: -300px -300px
+}
+ .tank72-1-live{
+    background: url("../IMG/battle_sprite.png") no-repeat right center;
+    background-position: 0px -300px
+}
+ .tank72-2-live{
+    background: url("../IMG/battle_sprite.png") no-repeat left center;
+    background-position: -100px -300px
+}
+
+.gun-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat top center;
+    background-position: -300px -500px
+}
+.gun-2-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat bottom center;
+    background-position: -300px -400px
+}
+.gun-1-live{
+    background: url("../IMG/battle_sprite.png") no-repeat top center;
+    background-position: -200px -500px
+}
+
+.gun-2-live{
+    background: url("../IMG/battle_sprite.png") no-repeat bottom center;
+    background-position: -200px -400px
+}
+
+
+
+.infantry-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: -500px -100px
+}
+.infantry-live{
+    background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: -400px -100px
+}
+
+
+.our-infantry-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: -500px 0px
+}
+.our-tank72-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right center;
+    background-position: -200px -200px
+}
+.our-tank72-2-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left center;
+    background-position: -300px -200px
+}
+.our-btr-4-1{
+    background: url("../IMG/battle_sprite.png") no-repeat right center;
+    background-position: 0px 0px
+}
+.our-btr-4-2{
+    background: url("../IMG/battle_sprite.png") no-repeat left center;
+    background-position: -100px 0px
+}
+.our-btr-4-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right center;
+    background-position: -200px 0px
+}
+.our-btr-4-2-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left center;
+    background-position: -300px 0px
+}
+.our-ARTA-1{
+    background: url("../IMG/battle_sprite.png") no-repeat right bottom;
+    background-position: -400px -600px
+}
+.our-ARTA-2{
+    background: url("../IMG/battle_sprite.png") no-repeat left bottom;
+    background-position: -500px -600px
+}
+.our-ARTA-3{
+    background: url("../IMG/battle_sprite.png") no-repeat right top;
+    background-position: -400px -700px
+}
+.our-ARTA-4{
+    background: url("../IMG/battle_sprite.png") no-repeat left top;
+    background-position: -500px -700px
+}
+
+.our-ARTA-1-wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat right bottom;
+    background-position: -200px -600px
+}
+.our-ARTA-2-wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat left bottom;
+    background-position: -300px -600px
+}
+.our-ARTA-3-wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat right top;
+    background-position: -200px -700px
+}
+.our-ARTA-4-wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat left top;
+    background-position: -300px -700px
+}
+.our-ARTA-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right bottom;
+    background-position: 0px -600px
+}
+.our-ARTA-2-kill{
+background: url("../IMG/battle_sprite.png") no-repeat left bottom;
+    background-position: -100px -600px
+}
+.our-ARTA-3-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right top;
+    background-position: 0px -700px
+}
+.our-ARTA-4-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left top;
+    background-position: -100px -700px
+}
+.our-GRAD-1{
+    background: url("../IMG/battle_sprite.png") no-repeat right bottom;
+    background-position: -400px -800px
+}
+.our-GRAD-2{
+    background: url("../IMG/battle_sprite.png") no-repeat left bottom;
+    background-position: -500px -800px
+}
+.our-GRAD-3{
+    background: url("../IMG/battle_sprite.png") no-repeat right top;
+    background-position: -400px -900px
+}
+.our-GRAD-4{
+    background: url("../IMG/battle_sprite.png") no-repeat left top;
+    background-position: -500px -900px
+}
+.our-GRAD-1-wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat right bottom;
+    background-position: -200px -800px
+}
+.our-GRAD-2-wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat left bottom;
+    background-position: -300px -800px
+}
+.our-GRAD-3-wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat right top;
+    background-position: -200px -900px
+}
+.our-GRAD-4-wounded{
+    background: url("../IMG/battle_sprite.png") no-repeat left top;
+    background-position: -300px -900px
+}
+.our-GRAD-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right bottom;
+    background-position: 0px -800px
+}
+.our-GRAD-2-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left bottom;
+    background-position: -100px -800px
+}
+.our-GRAD-3-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat right top;
+    background-position: 0px -900px
+}
+.our-GRAD-4-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat left top;
+    background-position: -100px -900px
+}
+.our-gun-1-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat top center;
+    background-position: -100px -500px
+}
+
+.our-gun-2-kill{
+    background: url("../IMG/battle_sprite.png") no-repeat bottom center;
+    background-position: -100px -400px
+}
+.down_bar{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 18px;
+    width: 626px;
+    line-height: 50px;
+    position: absolute;
+    top: 730px;
+}
+#auto_icon{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    background: url("../IMG/battle_sprite.png") no-repeat center center;
+    background-position: -400px -1000px;
+    margin-left: 50px;
+}
+.down_bar input{
+    margin-left: 50px;
+}
+.rounded{
+    border: 2px solid red;
+    text-align: center;
+}
+.not_rounded{
+    border: 0px solid red;
+    text-align: center;
+}
+.units{
+    text-align: center;
+}
+#button_back{
+    display: none;
+}
+
+#battle_table{
+    width: 595px;
+	height: 595px;
+    position: absolute;
+}
+
+/*----------ЯНДЕКС КАРТЫ ---------------*/
+#small_map{
+    width: 626px;
+    height: 635px;
+    /*margin: auto;
+    margin-top: 100px;*/
+    border: 1px solid #333;
+    position:absolute;
+}
+
+#small_map img{
+    position: absolute;
+    clip:rect(0px 626px 635px 0px);
+	}
+
+/*----------ЯНДЕКС КАРТЫ ---------------*/
