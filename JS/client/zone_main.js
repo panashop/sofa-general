@@ -480,8 +480,6 @@ function drawUnitsOfTwoSize(){ //  ПЕРЕРИСОВЫВАЕМ ВСЕ ПОЛЯ 
     if(data.city){
         data.city.forEach(function(field){
         $('#'+field).append('<div class="city" style = "background: url(../../IMG/enemy_sprite_big.png) no-repeat center center; position: absolute; display: inline-block; width: 54px; height: 61px; top: 10px; left: 3px; background-position: -500px -300px;"></div>');
-            
-//        $('#'+field).addClass("city")
         });
     }
         

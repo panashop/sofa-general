@@ -2,6 +2,8 @@ var fs = require('fs');
 var url = require('url'); 
 
 var change_direction = function(req, res){
+    
+
     var dir = req.url.slice(-2,-1);
     
     if((dir == 1)||(dir == 2)||(dir == 3)){

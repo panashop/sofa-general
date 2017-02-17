@@ -40,6 +40,12 @@ if(path == '/sector/save/'){
     saveSector(req);
 }
     
+if(path == '/sector/developer/'){
+    var saveDeveloper = require('./LIB/developer_save');
+    saveDeveloper(req);
+}
+
+    
 }
 
 

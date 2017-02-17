@@ -1301,7 +1301,6 @@ function ourTrench(){
 
 function saveSector(){
     var sendData = JSON.stringify(sector).toString();
-//    console.log(sendDate)
     $.get('http://localhost:8080/sector/save/', sendData)
 }
 

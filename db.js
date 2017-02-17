@@ -333,12 +333,12 @@ console.log("Вошли в раздел OPEN")
         fromJsonToField(sectorC);
         fromJsonToField(sectorM);
             
-        var zoneA = require('./DB/JSON/zone_A.json'); 
+//        var zoneA = require('./DB/JSON/zone_A.json'); 
         var zoneB = require('./DB/JSON/zone_B.json'); 
         var zoneC = require('./DB/JSON/zone_C.json'); 
         var zoneM = require('./DB/JSON/zone_M.json');
             
-        fromJsonToZone(zoneA);
+//        fromJsonToZone(zoneA);
         fromJsonToZone(zoneB);
         fromJsonToZone(zoneC);
         fromJsonToZone(zoneM);
